@@ -9,12 +9,12 @@ const config: HardhatUserConfig = {
   defaultNetwork: "tenderly",
   networks: {
     tenderly: {
-      url: "https://rpc.vnet.tenderly.co/devnet/mini-safe-tests/5689c164-0b43-48ed-abbf-4fd0527b29a2",
+      url: "https://rpc.vnet.tenderly.co/devnet/mini-safe-tests/7fa30ea4-eab8-42ca-9cac-e6b0aa1faf93",
       chainId: 736031,
     },
   },
   tenderly: {
-    username: "nenad",
+    username: "bdzekic1",
     project: "mini-safe",
     accessKey: process.env.TENDERLY_ACCESS_KEY,
   },
